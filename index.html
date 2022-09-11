@@ -4,6 +4,60 @@
   <link rel="stylesheet" href="styles.css"> 
   </head>
   <body>
-    </body>
+
+    <div class="header">
+    <h1>Survey Form</h1>
+    <p>Thank you for taking the time to help us improve the platform</p>
+</div>
+<div class="formShow">
+    <form>
+        <label for="name">Name</label>
+        <input id="name" type="text" placeholder="Enter your name">
+        <label for="email">Email</label>
+        <input id="email" type="text" placeholder="Enter your email">
+        <label for="age">Age(optional)</label>
+        <input id="age" type="text" placeholder="Enter age">
+        <label>Which option best describe your current role?</label>
+        <select id="options" name="options">
+            <option selcted value>Select your role</option>
+            <option>Student</option>
+            <option>Full Time Tob</option>
+            <option>Full Time Learner</option>
+            <option>Prefer not to say</option>
+            <option>Other</option>
+        </select>
+        <label>Would you recommend freecodecamp to a friend?</label>
+        <div style="margin-bottom:30px;">
+            <label><input type="radio" name="recommend">Definitly</label></br>
+            <label><input type="radio" name="recommend">May be</label></br>
+            <label><input type="radio" name="recommend">Not sure</label></br>
+        </div>
+        <label>What is your favorit feature of freecodecamp?</label>
+        <select id="features">
+            <option selected value>Select an option</option> 
+            <option>Challenges</option> 
+            <option>Projects</option>
+            <option>Community</option>
+            <option>Open Source</option>
+        </select>
+        <label>Would you like to see improved? (Check all that apply)</label></br>
+        <div style="margin-bottom:30px;">
+            <label><input type="checkbox">Front-end Projects</label></br>
+            <label><input type="checkbox">Back-end Projects</label></br>
+            <label><input type="checkbox">Data Visualization</label></br>                        
+            <label><input type="checkbox">Challenges</label></br>
+            <label><input type="checkbox">Open Source Community</label></br>
+            <label><input type="checkbox">Gitter helps room</label></br>
+            <label><input type="checkbox">Videos</label></br>
+            <label><input type="checkbox">City Meetups</label></br>
+            <label><input type="checkbox">Wiki</label></br>
+            <label><input type="checkbox">Forum</label></br>
+            <label><input type="checkbox">Additional Courses</label></br>
+        </div>
+        <label>Any comments or suggetions?</label>
+        <input type="textarea" placeholder="Enter your comments here..">
+        <input type="submit" value="Submit">
+    </form> 
+</div>     
 
 </html>
