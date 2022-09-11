@@ -1,8 +1,6 @@
 body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(251, 251, 255);
-    background-image:
-      url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg)
 }
 .header {
     width: 100%;
